@@ -11,7 +11,7 @@ module.exports = function(grunt) {
           // open: true,
           // hostname: "*",
           // livereload: true,
-          keepalive: true
+          // keepalive: true
         }
       },
     },
