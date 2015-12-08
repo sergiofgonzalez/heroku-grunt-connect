@@ -107,5 +107,5 @@ module.exports = function(grunt) {
     grunt.task.run(["build:debug", "connect:server", "watch"]);
   });
 
-  grunt.registerTask("heroku", ["build:debug", "connect:server"]);
+  grunt.registerTask("heroku", ["build:debug"]);
 };
