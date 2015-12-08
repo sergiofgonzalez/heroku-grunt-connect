@@ -9,7 +9,7 @@ module.exports = function(grunt) {
           port: process.env.PORT || 5000,
           base: "build",
           // open: true,
-          hostname: "0.0.0.0",
+          hostname: "*",
           // livereload: true,
           // keepalive: true
         }
