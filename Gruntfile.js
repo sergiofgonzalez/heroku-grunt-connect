@@ -8,9 +8,10 @@ module.exports = function(grunt) {
         options: {
           port: process.env.PORT || 5000,
           base: "build",
-          open: true,
-          hostname: "*",
-          livereload: true
+          // open: true,
+          // hostname: "*",
+          // livereload: true,
+          keepalive: true
         }
       },
     },
